@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  box-sizing: inherit;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  min-height: 100vh;
-  overflow: auto;
-  background: #0f4c5c;
+    box-sizing: inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    min-height: 100vh;
+    overflow: auto;
+    background: #0f4c5c;
 }
 
 section {
@@ -19,7 +19,12 @@ section {
     margin: 1rem auto;
     padding: 3%;
     width: 90%;
+}
 
+.titleheader {
+    font-size: 1vw;
+    font-weight: bolder;
+    color: #e36414;
 }
 
 h1 {
@@ -32,16 +37,15 @@ h1 {
 
 .img-container {
     float: right;
-
     width: 40%;
 }
-.img-container.left{
+
+.img-container.left {
     float: left;
-    margin-right: 1em ;
+    margin-right: 1em;
     width: 20%;
 }
 
 .sub-section {
     overflow: hidden;
 }
-
