@@ -44,4 +44,10 @@ h1 {
 .sub-section {
     overflow: hidden;
 }
+img {
+    border-radius: 20%;
+    border-width: 15px;
+    border-style: solid;
+    max-width: 250px;
 
+}
